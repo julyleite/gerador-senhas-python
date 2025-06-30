@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Senhas</title>
+</head>
+<body>
+  <h2>Gerador de Senhas</h2>
+  <form method="POST">
+    <label>Tamanho da senha:</label>
+    <input type="number" name="tamanho" value="12"><br><br>
+
+    <input type="checkbox" name="maiusculas" checked> Letras maiúsculas<br>
+    <input type="checkbox" name="minusculas" checked> Letras minúsculas<br>
+    <input type="checkbox" name="numeros" checked> Números<br>
+    <input type="checkbox" name="simbolos" checked> Símbolos<br><br>
+
+    <button type="submit">Gerar</button>
+  </form>
+
+  {% if senha %}
+    <h3>Senha gerada:</h3>
+    <p style="font-size: 20px;">{{ senha }}</p>
+  {% endif %}
+</body>
+</html>
