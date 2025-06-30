@@ -68,4 +68,4 @@ Este projeto foi criado como parte do meu portfólio na transição de carreira 
 
 ---
 
-Feito com 💙 por Juliana Leite
+Feito por Juliana Leite
